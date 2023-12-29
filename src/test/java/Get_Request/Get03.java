@@ -47,7 +47,27 @@ public class Get03 {
                 .body("tags[0].name",equalTo("kangal"));
 
 
+    }
 
+    @Test
+
+    public void get03SoftAssertion(){
+
+
+        RestAssured.baseURI =   "https://petstore.swagger.io/v2";
+        RestAssured.basePath = "/pet/137700";
+
+
+        Response response = given().when().get();
+        response.prettyPrint();
+
+        response
+                .then().statusCode(200)
+                .contentType("application/json")
+                .body("name", containsString("Karabas"),
+                "status",equalTo("available")
+                ,"category.name", equalTo("kopek"),
+                "tags[0].name",equalTo("kangal"));
 
 
     }
