@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7b5c126-4441-4903-8c48-79a109bd4a91" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Get_Request/Get04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Get_Request/Get05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/baseUrl/PetStoreBaseUrl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Get_Request/Get03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Get_Request/Get03.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +28,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2aCIbVOcNlnHSekDCbBR9HZbbdQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -39,13 +41,19 @@
   "keyToString": {
     "JUnit.Get02.Get.executor": "Run",
     "JUnit.Get03.get03.executor": "Run",
+    "JUnit.Get04.get04.executor": "Run",
+    "JUnit.Get05.get05.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/ozcan/IdeaProjects/TurkeApi/src/test/java",
-    "onboarding.tips.debug.path": "C:/Users/ozcan/IdeaProjects/TurkeApi/src/main/java/org/example/Main.java"
+    "onboarding.tips.debug.path": "C:/Users/ozcan/IdeaProjects/TurkeApi/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -53,7 +61,7 @@
       <recent name="C:\Users\ozcan\IdeaProjects\TurkeApi\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Get03.get03">
+  <component name="RunManager" selected="JUnit.Get05.get05">
     <configuration name="Get02.Get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TurkeApi" />
       <extension name="coverage">
@@ -86,8 +94,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Get04.get04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TurkeApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Get_Request.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Get_Request" />
+      <option name="MAIN_CLASS_NAME" value="Get_Request.Get04" />
+      <option name="METHOD_NAME" value="get04" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Get05.get05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TurkeApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Get_Request.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Get_Request" />
+      <option name="MAIN_CLASS_NAME" value="Get_Request.Get05" />
+      <option name="METHOD_NAME" value="get05" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Get05.get05" />
+        <item itemvalue="JUnit.Get04.get04" />
         <item itemvalue="JUnit.Get03.get03" />
         <item itemvalue="JUnit.Get02.Get" />
       </list>
@@ -96,7 +138,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-21.0.1-openjdk-21.0.1-f644763e9732-f98dd351" />
+        <option value="jdk-21.0.1-openjdk-21.0.1-f644763e9732-2f79fb23" />
       </set>
     </attachedChunks>
   </component>
@@ -110,6 +152,17 @@
       <updated>1703816208616</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
