@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7b5c126-4441-4903-8c48-79a109bd4a91" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Get_Request/Get04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Get_Request/Get05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/baseUrl/PetStoreBaseUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/baseUrl/ThinkingTesterBaseUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/post_requests/Post01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Get_Request/Get01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Get_Request/Get02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Get_Request/Get03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Get_Request/Get04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Get_Request/Get05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Get_Request/RequestResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/get_requests/RequestResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baseUrl/PetStoreBaseUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseUrl/PetStoreBaseUrl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +50,9 @@
     "JUnit.Get03.get03.executor": "Run",
     "JUnit.Get04.get04.executor": "Run",
     "JUnit.Get05.get05.executor": "Run",
+    "JUnit.Get06.executor": "Run",
+    "JUnit.Get06.get06.executor": "Run",
+    "JUnit.Post01.post01.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -61,49 +71,17 @@
       <recent name="C:\Users\ozcan\IdeaProjects\TurkeApi\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Get05.get05">
-    <configuration name="Get02.Get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TurkeApi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Get_Request.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Get_Request" />
-      <option name="MAIN_CLASS_NAME" value="Get_Request.Get02" />
-      <option name="METHOD_NAME" value="Get" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Get03.get03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TurkeApi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Get_Request.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Get_Request" />
-      <option name="MAIN_CLASS_NAME" value="Get_Request.Get03" />
-      <option name="METHOD_NAME" value="get03" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Post01.post01">
     <configuration name="Get04.get04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TurkeApi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Get_Request.*" />
+          <option name="PATTERN" value="get_requests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Get_Request" />
-      <option name="MAIN_CLASS_NAME" value="Get_Request.Get04" />
+      <option name="MAIN_CLASS_NAME" value="get_requests.Get04" />
       <option name="METHOD_NAME" value="get04" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -114,13 +92,60 @@
       <module name="TurkeApi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Get_Request.*" />
+          <option name="PATTERN" value="get_requests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Get_Request" />
-      <option name="MAIN_CLASS_NAME" value="Get_Request.Get05" />
+      <option name="MAIN_CLASS_NAME" value="get_requests.Get05" />
       <option name="METHOD_NAME" value="get05" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Get06" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TurkeApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="get_requests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Get_Request" />
+      <option name="MAIN_CLASS_NAME" value="get_requests.Get06" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Get06.get06" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TurkeApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="get_requests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Get_Request" />
+      <option name="MAIN_CLASS_NAME" value="get_requests.Get06" />
+      <option name="METHOD_NAME" value="get06" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Post01.post01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TurkeApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="post_requests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="post_requests" />
+      <option name="MAIN_CLASS_NAME" value="post_requests.Post01" />
+      <option name="METHOD_NAME" value="post01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -128,10 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Post01.post01" />
+        <item itemvalue="JUnit.Get06" />
+        <item itemvalue="JUnit.Get06.get06" />
         <item itemvalue="JUnit.Get05.get05" />
         <item itemvalue="JUnit.Get04.get04" />
-        <item itemvalue="JUnit.Get03.get03" />
-        <item itemvalue="JUnit.Get02.Get" />
       </list>
     </recent_temporary>
   </component>

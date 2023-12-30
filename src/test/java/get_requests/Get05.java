@@ -1,4 +1,4 @@
-package Get_Request;
+package get_requests;
 
 import baseUrl.PetStoreBaseUrl;
 import io.restassured.http.ContentType;

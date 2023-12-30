@@ -1,4 +1,4 @@
-package Get_Request;
+package get_requests;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
